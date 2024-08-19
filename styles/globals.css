@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+
+
+.dashed-circle {
+  position: absolute; /* Position it absolutely within its parent */
+}
+
+.dashed-circle::before {
+  content: '';
+  position: absolute;
+  width: 70px; /* Adjust size as needed */
+  height: 70px; /* Adjust size as needed */
+  border: 1px dashed rgb(46, 46, 46); /* Adjust color and size as needed */
+  border-radius: 50%;
+  background: transparent;
+}
+
+.dashed-circle.left::before {
+  left: -20px; /* Position from the left edge of the parent */
+  top: 50%; /* Position vertically centered */
+  transform: translateY(-130%) translateX(-21%); /* Center vertically and no X offset */
+}
+
+.dashed-circle.right::before {
+  right: -20px; /* Position from the right edge of the parent */
+  top: 50%; /* Position vertically centered */
+  transform: translateY(-486%) translateX(22%); /* Center vertically and no X offset */
+}
+
+/* Styles for large screens */
+@media (min-width: 1024px) {
+  .dashed-circle.left::before {
+    left: -20px; /* Position from the left edge of the parent */
+    top: 50%; /* Position vertically centered */
+    transform: translateY(-130%) translateX(-23%); /* Center vertically and adjust X offset */
+  }
+
+  .dashed-circle.right::before {
+    right: -20px; /* Position from the right edge of the parent */
+    top: 50%; /* Position vertically centered */
+    transform: translateY(-486%) translateX(22%); /* Center vertically and adjust X offset */
+  }
+}
+
+/* Styles for medium screens */
+@media (min-width: 768px) and (max-width: 1280px) {
+  .dashed-circle.left::before {
+    display: none;
+  }
+
+  .dashed-circle.right::before {
+    display: none;
+  }
+}
+
+/* Hide circles for small screens */
+@media (max-width: 767px) {
+  .dashed-circle {
+    display: none; /* Hide the circles completely on small screens */
+  }
+}
+
+
+
