@@ -6,12 +6,12 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/ASIA.jpg";
+import deved from "../public/ASIA.JPG";
 import Image from "next/image";
-import abra from "../public/abra.png";
-import alien from "../public/alien.png";
-import anim from "../public/anim.png";
-import repo1 from "../public/repo1.png";
+import abra from "../public/abra.PNG";
+import alien from "../public/alien.PNG";
+import anim from "../public/anim.PNG";
+import repo1 from "../public/repo1.PNG";
 import snmc2 from "../public/snmc2.png";
 import polidex from "../public/polidex.png";
 import eye from "../public/eye.png";
