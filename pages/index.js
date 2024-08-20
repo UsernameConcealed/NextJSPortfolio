@@ -12,7 +12,7 @@ import abra from "../public/abra.PNG";
 import alien from "../public/alien.PNG";
 import anim from "../public/anim.PNG";
 import repo1 from "../public/repo1.PNG";
-import snmc2 from "../public/snmc2.png";
+import snmc2 from "../public/snmc2.PNG";
 import polidex from "../public/polidex.png";
 import eye from "../public/eye.png";
 import backend from "../public/back-end.png";
