@@ -131,6 +131,7 @@ export default function Home() {
                       src={deved}
                       layout="fill"
                       objectFit="contain"
+                      alt="deved"
                       className="transition-transform duration-300 ease-in-out"
                       style={{
                         objectPosition: 'center', // Adjust this if necessary
@@ -164,7 +165,7 @@ export default function Home() {
 
           <div className="px-44 mb-10 lg:flex gap-10">
             <div className="text-center p-10 rounded-xl my-10 border border-ash dark:bg-black flex-1 transition-colors duration-400 hover:bg-gray-300 dark:hover:bg-stone-900">
-              <Image src={eye} width={100} height={100} />
+              <Image src={eye} width={100} height={100} alt="eye" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600 dark:text-white">
                 Frontend
               </h3>
@@ -181,7 +182,7 @@ export default function Home() {
             </div>
 
             <div className="text-center p-10 rounded-xl my-10 border border-ash dark:bg-black flex-1 transition-colors duration-400 hover:bg-gray-300 dark:hover:bg-stone-900">
-              <Image src={backend} width={100} height={100} />
+              <Image src={backend} width={100} height={100} alt="backend" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600 dark:text-white">
                 Backend
               </h3>
@@ -198,7 +199,7 @@ export default function Home() {
             </div>
 
             <div className="text-center p-10 rounded-xl my-10 border border-ash dark:bg-black flex-1 transition-colors duration-400 hover:bg-gray-300 dark:hover:bg-stone-900">
-              <Image src={others} width={100} height={100} />
+              <Image src={others} width={100} height={100} alt="others" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600 dark:text-white ">Others</h3>
               <p className="py-2 dark:text-ash">
                 Others that serves as bonus.
@@ -227,6 +228,7 @@ export default function Home() {
                     className="rounded-t-lg object-cover border-t border-x border-ash dark:bg-black"
                     width={"100%"}
                     height={"60%"}
+                    alt="repo1"
                     layout="responsive"
                     src={repo1}
                 />
@@ -245,6 +247,7 @@ export default function Home() {
                     width={"100%"}
                     height={"60%"}
                     layout="responsive"
+                    alt="abra"
                     src={abra}
                 />
                 <div className="p-5 rounded-b-lg border-b border-x border-ash dark:bg-black flex-1 flex flex-col">
@@ -262,6 +265,7 @@ export default function Home() {
                     width={"100%"}
                     height={"60%"}
                     layout="responsive"
+                    alt="polidex"
                     src={polidex}
                 />
                 <div className="p-5 rounded-b-lg border-b border-x border-ash dark:bg-black flex-1 flex flex-col">
@@ -279,6 +283,7 @@ export default function Home() {
                     width={"100%"}
                     height={"60%"}
                     layout="responsive"
+                    alt="snmc2"
                     src={snmc2}
                 />
                 <div className="p-5 rounded-b-xl border-b border-x border-ash dark:bg-black flex-1 flex flex-col">
@@ -286,7 +291,7 @@ export default function Home() {
                     <p className="text-sm leading-tight text-ellipsis dark:text-ash overflow-hidden">
                     Operators and Drivers Management System is a specialized web application designed 
                     to manage and organize information related to tricycle operators and drivers, 
-                    commonly known as "TODA" (Tricycle Operators and Drivers Association). 
+                    commonly known as &quot;TODA&quot; (Tricycle Operators and Drivers Association). 
                     The system is built using PHP for server-side scripting, 
                     MySQL for database management, and Tailwind CSS for a responsive and modern user interface.
                     </p>
@@ -298,6 +303,7 @@ export default function Home() {
                     width={"100%"}
                     height={"60%"}
                     layout="responsive"
+                    alt="anim"
                     src={anim}
                 />
                 <div className="p-5 rounded-b-xl border-b border-x border-ash dark:bg-black flex-1 flex flex-col">
@@ -314,6 +320,7 @@ export default function Home() {
                     width={"100%"}
                     height={"60%"}
                     layout="responsive"
+                    alt="alien"
                     src={alien}
                 />
                 <div className="p-5 rounded-b-xl border-b border-x border-ash dark:bg-black flex-1 flex flex-col">
