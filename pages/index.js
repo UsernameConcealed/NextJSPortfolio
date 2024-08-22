@@ -100,7 +100,7 @@ export default function Home() {
               />
               </h2>
               <div className="border-b border-dashed border-gray-600 dark:border-stone-800 border-t-0">
-                <h3 className="text-2xl py-2 dark:text-ash md:text-3xl">
+                <h3 className="text-xl sm:text-2xl py-2 dark:text-ash md:text-3xl">
                   BS Information Technology (Recent Graduate)
                 </h3>
                 <p className="text-md py-5 leading-8 dark:text-ash max-w-xl mx-auto md:text-xl">
@@ -121,11 +121,11 @@ export default function Home() {
                   <div className="absolute inset-y-0 left-0 w-2/6 border-r border-dashed border-gray-600 dark:border-stone-800 z-0 pointer-events-none"></div>
                   <div className="absolute inset-y-0 right-0 w-2/6 border-l border-dashed border-gray-600 dark:border-stone-800 z-0 pointer-events-none"></div>
 
-                  <div className="absolute inset-y-20 right-0 w-full border-b border-dashed border-gray-600 dark:border-stone-800 z-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 left-1/2 z-0"></div>
+                  <div className="absolute inset-y-20 right-0 w-full border-b border-dashed border-gray-600 dark:border-stone-800 z-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 left-1/2"></div>
                   <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-gray-200 dark:from-black via-transparent z-0 pointer-events-none"></div>
                   <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-gray-200 dark:from-black via-transparent z-0 pointer-events-none"></div>
                   
-                <div className="mx-auto rounded-full relative overflow-hidden mt-0 w-24 h-24 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-80 xl:h-80 border-dashed border border-gray-600 dark:border-stone-800">
+                <div className="mx-auto rounded-full relative overflow-hidden mt-0 w-56 h-56 sm:w-56 sm:h-56 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-80 xl:h-80 border-dashed border border-gray-600 dark:border-stone-800">
                   <div className="relative w-full h-full">
                     <Image
                       src={deved}
@@ -145,8 +145,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="px-44">
+        <section className="mt-8 sm:mt-0">
+          <div className="px-8 sm:px-44">
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-ash">
               I am Jermaine T. Asia, a recent graduate from Universidad de Manila with a Bachelor of Science in Information Technology.
@@ -163,7 +163,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="px-44 mb-10 lg:flex gap-10">
+          <div className="px-8 sm:px-44 mb-10 lg:flex gap-10">
             <div className="text-center p-10 rounded-xl my-10 border border-ash dark:bg-black flex-1 transition-colors duration-400 hover:bg-gray-300 dark:hover:bg-stone-900">
               <Image src={eye} width={100} height={100} alt="eye" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-teal-600 dark:text-white">
@@ -215,14 +215,14 @@ export default function Home() {
           </div>
         </section>
         <section className="py-10">
-          <div className="px-44">
+          <div className="px-8 sm:px-44">
             <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-ash">
               Each project embodies the drive to innovate, 
               embracing challenges as opportunities to grow.
             </p>
           </div>
-          <div className="px-44 flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="px-8 sm:px-44 flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/4 flex-1 flex flex-col">
                 <Image
                     className="rounded-t-lg object-cover border-t border-x border-ash dark:bg-black"
